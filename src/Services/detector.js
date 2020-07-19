@@ -15,7 +15,7 @@ const cards = [
 
 const creditCard = (card_number) => {
     let found = cards.find((item, index) => {
-        return item[0] == card_number;
+        return item[0] === card_number;
     });
     return found;
 }

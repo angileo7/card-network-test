@@ -8,7 +8,7 @@ const Detector = () => {
     const retrieveFirm = (event) => {
         let card = creditCard(event.target.value);
 
-        if (card != undefined) {
+        if (card !== undefined) {
             setFirm(card[1])
         } else {
             setFirm("")
